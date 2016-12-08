@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">  
+<head>
+  <meta charset="utf-8">
+  <title>Hackers and You</title>
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/mozilla.css" id="theme"> 
+  <link rel="stylesheet" href="css/presentation.css">
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+  <style>
+    tt { font-family: monospace !important; }
+  </style>
+</head>
+ 
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <img src="images/first-party/mozilla_wordmark.svg" style="background: none; border: 0; box-shadow: none; width: 50%;">
+      </section>
+ 
+      <section>
+        <h3 class="pre-box-row">GET /April%20King HTTP/2.0</h3>
+        <p>Staff Security Engineer<br />Mozilla Corporation</p>
+        <p style="font-size: smaller;"><a href="mailto:april@mozilla.com">april@mozilla.com</a> &mdash; <a href="https://github.com/marumari/">gh/marumari</a> &mdash; <a href="https://twitter.com/aprilmpls">@aprilmpls</a></p>
+      </section>
+
+      <section>
+        <h2>Hackers and You</h2>
+        <h4>What are you up against?</h4>
+      </section>
+
+      <section data-background="rgb(8, 7, 5)" data-background-image="images/third-party/dick-gill.jpg" data-background-repeat="no-repeat" data-background-position="right" data-background-size="contain">
+        <blockquote class="gill">Hackers penetrate and ravage delicate public and privately owned computer systems, infecting them with viruses, and stealing materials for their own ends.
+          <footer>
+            <cite>&mdash; FBI Special Agent Dick Gill</cite>
+          </footer>
+        </blockquote>
+      </section>
+    </div>
+  </div>
+
+ 
+  <script>
+    // Let's startup reveal.js!
+    Reveal.initialize({
+      controls: false,
+      height: '100%',
+      history: true,
+      margin: .05,
+      minScale: .1,
+      progress: false,
+      slideNumber: 'c / t',
+      width: '100%',
+
+      dependencies: [
+        { src: 'plugin/notes/notes.js', async: true }
+      ]
+    });
+  </script>
+</body>
+</html>
