@@ -97,7 +97,7 @@ blockquote.gill:after {
     float:right;
     font-size:4.5em;
     line-height: 1;
-    right:0;
+    right:.05em;
     bottom:-.04em;
     content: "\201D";
 }
